@@ -1,0 +1,81 @@
+# ============================================
+# ! IMPORTANT: KEEP your design files !
+# ============================================
+!*.sch
+!*.sym
+!*.v
+!*.sv
+!*.vhd
+!*.tcl
+!*.py
+!*.sh
+!Makefile
+!README.md
+
+# ============================================
+# EDA Tool temporary directories
+# ============================================
+simv.daidir/
+xcelium.d/
+INCA_libs/
+work/
+transcript
+vish_stacktrace.vstf
+novas.rc
+.dt/
+*.wlf
+
+# ============================================
+# Simulation output files (IGNORE)
+# ============================================
+*.vcd
+*.fsdb
+*.shm
+*.log
+*.out
+*.err
+*.lis
+*.trn
+
+# ============================================
+# PDK / Technology files (IGNORE - proprietary)
+# ============================================
+*.lib
+*.lef
+*.gds
+*.tf
+*.itf
+*.nxtgrd
+*.captable
+*.db
+*.vdb
+*.cld
+*.tech
+
+# ============================================
+# Backup files (IGNORE)
+# ============================================
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Compiled/object files (IGNORE)
+# ============================================
+*.o
+*.so
+*.a
+*.dll
+*.exe
+*.pyc
+__pycache__/
+
+# ============================================
+# Large data files (IGNORE)
+# ============================================
+*.dat
+*.dump
+*.raw
